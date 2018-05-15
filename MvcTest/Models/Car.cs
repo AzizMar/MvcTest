@@ -6,7 +6,7 @@ using System.Web;
 
 namespace MvcTest.Models
 {
-    public class Car
+    public class Car : Voiture
     {
         [Key]
         public int CarId { get; set; }
