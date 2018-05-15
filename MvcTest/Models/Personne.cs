@@ -3,6 +3,8 @@
     public class Personne
     {
 
-        public int id { get; set; }
+        public int Id { get; set; }
+
+        public string Nom { get; set; }
     }
 }
