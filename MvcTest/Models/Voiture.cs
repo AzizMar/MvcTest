@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace MvcTest.Models
+﻿namespace MvcTest.Models
 {
     public class Voiture
     {
         public int Mat { get; set; }
+
+        public string Couleur { get; set; }
+
+        public string String { get; set; }
     }
 }
