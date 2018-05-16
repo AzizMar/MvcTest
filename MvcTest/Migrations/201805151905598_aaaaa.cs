@@ -3,7 +3,7 @@ namespace MvcTest.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class aa : DbMigration
+    public partial class aaaaa : DbMigration
     {
         public override void Up()
         {
@@ -45,6 +45,7 @@ namespace MvcTest.Migrations
                 c => new
                     {
                         Id = c.String(nullable: false, maxLength: 128, storeType: "nvarchar"),
+                        Buwawa = c.Int(nullable: false),
                         Email = c.String(maxLength: 256, storeType: "nvarchar"),
                         EmailConfirmed = c.Boolean(nullable: false),
                         PasswordHash = c.String(unicode: false),
