@@ -7,13 +7,13 @@ namespace MvcTest.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class aa : IMigrationMetadata
+    public sealed partial class aaaaa : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(aa));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(aaaaa));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805092112567_aa"; }
+            get { return "201805151905598_aaaaa"; }
         }
         
         string IMigrationMetadata.Source
