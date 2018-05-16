@@ -8,5 +8,7 @@ namespace MvcTest.Models
     public class Voiture
     {
         public int Mat { get; set; }
+
+        public int MyProperty { get; set; }
     }
 }
